@@ -44,7 +44,7 @@ class MusicSreach(loader.Module):
 
 			await message.delete()
 
-			results = await message.client.inline_query("@BampiOnBot", args)
+			results = await message.client.inline_query("https://t.me/+VQZJL6Kgdl4yMDJi", найти args)
 
 			await results[0].click(message.chat_id)
 
