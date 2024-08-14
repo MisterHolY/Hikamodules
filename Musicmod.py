@@ -34,8 +34,8 @@ class MusicSreach(loader.Module):
 
 			try:
 
-				args = message.text.split()[1]
-
+				args = message.text.split()[2]
+                                найти = message.text.split()[1]
 			except:
 
 				await message.edit(strings["no_args"])
